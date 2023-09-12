@@ -31,6 +31,7 @@ import java.io.File
 import java.io.IOException
 import kotlin.concurrent.thread
 
+@Suppress("DEPRECATION")
 class PlayWebActivity : AppCompatActivity() {
     private var wvObject: WebView? = null
     var mainCallb: ValueCallback<Array<Uri>>? = null
@@ -48,8 +49,7 @@ class PlayWebActivity : AppCompatActivity() {
 
         try {
         val url = getSharedPreferences("url_file", MODE_PRIVATE).getString("url", null)
-//        if (url == null) {
-        if (true) {
+        if (url == null) {
             Log.i("Play web activity", "Uri is null.")
             thread {
                 runBlocking {
@@ -59,8 +59,7 @@ class PlayWebActivity : AppCompatActivity() {
                         .build()
                         .create(RetrofitGetDataApi::class.java)
                         .getInfo()
-//                    if (response.isSuccessful) {
-                    if (false) {
+                    if (response.isSuccessful) {
                         Log.i("Play web activity", "Request is successful.")
                         val info = response.body()!!
                         if (info.can == true && !info.url.isNullOrEmpty()) {
@@ -85,7 +84,7 @@ class PlayWebActivity : AppCompatActivity() {
             }
 
         } else {
-            activateWebGame(url!!)
+            activateWebGame(url)
         }
     }
         catch (e: Exception) {
@@ -141,7 +140,7 @@ class PlayWebActivity : AppCompatActivity() {
         }
     }
 
-    fun configureWEObject() {
+    private fun configureWEObject() {
         wvObject!!.webViewClient = object: WebViewClient() {
             override fun shouldOverrideUrlLoading(
                 view: WebView?,
@@ -192,7 +191,7 @@ class PlayWebActivity : AppCompatActivity() {
 
     val requestPermissionLauncher = registerForActivityResult (
         ActivityResultContracts.RequestPermission()
-    ) { isGranted: Boolean? ->
+    ) { _: Boolean? ->
         val pictureFile = createPictureFileOrNull()
         val takeIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         setTakeIntentAndSecondCallb(takeIntent, pictureFile)
@@ -201,7 +200,7 @@ class PlayWebActivity : AppCompatActivity() {
         startActivityForResult(chooserIntent, 1)
     }
 
-    fun createPictureFileOrNull(): File? {
+    private fun createPictureFileOrNull(): File? {
         return try {
             File.createTempFile(
                 "picture_file",
@@ -214,7 +213,7 @@ class PlayWebActivity : AppCompatActivity() {
         }
     }
 
-    fun setTakeIntentAndSecondCallb(takeIntent: Intent, pictureFile: File?) {
+    private fun setTakeIntentAndSecondCallb(takeIntent: Intent, pictureFile: File?) {
         takeIntent.putExtra(
             MediaStore.EXTRA_OUTPUT,
             Uri.fromFile(pictureFile)
@@ -222,18 +221,19 @@ class PlayWebActivity : AppCompatActivity() {
         secondCallb = Uri.fromFile(pictureFile)
     }
 
-    fun getOldIntent(oldIntent: Intent): Intent {
+    private fun getOldIntent(oldIntent: Intent): Intent {
         oldIntent.addCategory(Intent.CATEGORY_OPENABLE)
         oldIntent.type = "*/*"
         return oldIntent
     }
 
-    fun getChooserIntent(chooserIntent: Intent, oldIntent: Intent, takeIntent: Intent): Intent {
+    private fun getChooserIntent(chooserIntent: Intent, oldIntent: Intent, takeIntent: Intent): Intent {
         chooserIntent.putExtra(Intent.EXTRA_INTENT, oldIntent)
         chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, Array(1) { takeIntent })
         return chooserIntent
     }
 
+    @Deprecated("Deprecated in Java")
     public override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (mainCallb == null) return
@@ -248,11 +248,11 @@ class PlayWebActivity : AppCompatActivity() {
         mainCallb = null
     }
 
-    fun getDataStringUriIfNotNull(data: Intent?) = data?.dataString?.let {
+    private fun getDataStringUriIfNotNull(data: Intent?) = data?.dataString?.let {
         arrayOf(Uri.parse(it))
     }
 
-    fun getSecondCallbInArrayIfNotNull() = secondCallb?.let {
+    private fun getSecondCallbInArrayIfNotNull() = secondCallb?.let {
         arrayOf(it)
     }
 
@@ -261,6 +261,7 @@ class PlayWebActivity : AppCompatActivity() {
         wvObject?.saveState(outState)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (wvObject?.canGoBack() == true) {
             wvObject?.goBack()
