@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CrownNew</string>
+    <string name="butt_text_play_slots">PLAY SLOTS</string>
+    <string name="butt_play_pokies">PLAY POKIES</string>
+    <string name="tv_bank">BANK: %d</string>
+    <string name="tv_last_win">LAST WIN: %d</string>
+    <string name="tv_current_bet">CURRENT BET: %d</string>
+    <string name="b_spin">SPIN</string>
+</resources>

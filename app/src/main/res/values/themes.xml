@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CrownNew" parent="Theme.Material3.Dark.NoActionBar">
+
+    </style>
+
+    <style name="Theme.CrownNew" parent="Base.Theme.CrownNew" >
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

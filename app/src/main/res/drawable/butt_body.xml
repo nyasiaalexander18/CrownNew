@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <ripple
+            android:color="?android:colorControlHighlight">
+            <item android:id="@android:id/mask" android:drawable="@drawable/butt_ripple_mask"/>
+            <item android:drawable="@drawable/shape_butt"/>
+        </ripple>
+    </item>
+    <item android:state_enabled="false" android:drawable="@drawable/shape_inactive_butt"/>
+</selector>

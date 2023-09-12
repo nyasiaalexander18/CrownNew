@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:duration="25">
+        <rotate android:fromDegrees="0" android:toDegrees="5" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="5" android:toDegrees="10" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="10" android:toDegrees="15" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="15" android:toDegrees="20" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="20" android:toDegrees="25" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="25" android:toDegrees="30" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="30" android:toDegrees="35" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="35" android:toDegrees="40" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="40" android:toDegrees="45" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="45" android:toDegrees="50" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="50" android:toDegrees="55" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="55" android:toDegrees="60" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="60" android:toDegrees="65" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="65" android:toDegrees="70" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="70" android:toDegrees="75" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="75" android:toDegrees="80" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="80" android:toDegrees="85" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="85" android:toDegrees="90" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="90" android:toDegrees="95" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="95" android:toDegrees="100" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="100" android:toDegrees="105" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="105" android:toDegrees="110" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="110" android:toDegrees="115" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="115" android:toDegrees="120" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="120" android:toDegrees="125" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="125" android:toDegrees="130" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="130" android:toDegrees="135" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="135" android:toDegrees="140" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="140" android:toDegrees="145" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="145" android:toDegrees="150" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="150" android:toDegrees="155" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="155" android:toDegrees="160" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="160" android:toDegrees="165" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="165" android:toDegrees="170" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="170" android:toDegrees="175" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="175" android:toDegrees="180" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="180" android:toDegrees="185" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="185" android:toDegrees="190" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="190" android:toDegrees="195" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="195" android:toDegrees="200" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="200" android:toDegrees="205" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="205" android:toDegrees="210" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="210" android:toDegrees="215" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="215" android:toDegrees="220" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="220" android:toDegrees="225" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="225" android:toDegrees="230" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="230" android:toDegrees="235" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="235" android:toDegrees="240" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="240" android:toDegrees="245" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="245" android:toDegrees="250" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="250" android:toDegrees="255" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="255" android:toDegrees="260" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="260" android:toDegrees="265" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="265" android:toDegrees="270" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="270" android:toDegrees="275" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="275" android:toDegrees="280" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="280" android:toDegrees="285" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="285" android:toDegrees="290" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="290" android:toDegrees="295" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="295" android:toDegrees="300" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="300" android:toDegrees="305" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="305" android:toDegrees="310" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="310" android:toDegrees="315" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="315" android:toDegrees="320" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="320" android:toDegrees="325" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="325" android:toDegrees="330" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="330" android:toDegrees="335" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="335" android:toDegrees="340" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="340" android:toDegrees="345" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="345" android:toDegrees="350" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="350" android:toDegrees="355" android:drawable="@drawable/img_preloading"/>
+    </item>
+    <item android:duration="25">
+        <rotate android:fromDegrees="355" android:toDegrees="360" android:drawable="@drawable/img_preloading"/>
+    </item>
+</animation-list>

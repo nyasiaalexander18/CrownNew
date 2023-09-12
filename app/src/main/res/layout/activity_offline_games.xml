@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.play_web.PlayWebActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/img_bg_main">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="279dp"
+        android:layout_height="152dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/img_slots"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/butt_play_slots"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/butt_body"
+        android:text="@string/butt_text_play_slots"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="219dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/img_pokies"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/butt_play_pokies"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/butt_body"
+        android:text="@string/butt_play_pokies"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black" />
+</androidx.appcompat.widget.LinearLayoutCompat>

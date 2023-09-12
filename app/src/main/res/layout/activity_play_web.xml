@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img_bg_preloading">
+    <View
+        android:id="@+id/img_preloagind"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/animation_list_preloading"/>
+    <WebView
+        android:id="@+id/wv_web_game"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
