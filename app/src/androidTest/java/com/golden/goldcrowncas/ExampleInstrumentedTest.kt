@@ -1,4 +1,4 @@
-package games.for_fun.crownnew
+package com.golden.goldcrowncas
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

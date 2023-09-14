@@ -1,4 +1,4 @@
-package games.for_fun.crownnew
+package com.golden.goldcrowncas
 
 import org.junit.Test
 

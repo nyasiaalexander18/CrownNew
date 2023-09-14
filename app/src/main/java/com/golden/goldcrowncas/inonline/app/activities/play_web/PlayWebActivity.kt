@@ -1,4 +1,4 @@
-package games.for_fun.crownnew.activities.play_web
+package com.golden.goldcrowncas.inonline.app.activities.play_web
 
 import android.Manifest
 import android.content.Intent
@@ -20,10 +20,10 @@ import android.widget.FrameLayout
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import games.for_fun.crownnew.R
-import games.for_fun.crownnew.constants.Intents
-import games.for_fun.crownnew.constants.Url
-import games.for_fun.crownnew.constants.makeIntent
+import com.golden.goldcrowncas.inonline.app.R
+import com.golden.goldcrowncas.inonline.app.constants.Intents
+import com.golden.goldcrowncas.inonline.app.constants.Url
+import com.golden.goldcrowncas.inonline.app.constants.makeIntent
 import kotlinx.coroutines.runBlocking
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory

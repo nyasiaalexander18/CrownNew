@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686569261457",
+    "project_id": "gold-crown-casino",
+    "storage_bucket": "gold-crown-casino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686569261457:android:55df9f34a7786493587230",
+        "android_client_info": {
+          "package_name": "com.golden.goldcrowncas.inonline.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA421fXQHtYKEwKz4sqylCImx8UG_ORvy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

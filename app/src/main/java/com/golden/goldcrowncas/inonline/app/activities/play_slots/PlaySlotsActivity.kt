@@ -1,21 +1,16 @@
-package games.for_fun.crownnew.activities.play_slots
+package com.golden.goldcrowncas.inonline.app.activities.play_slots
 
 import android.os.Bundle
-import android.os.Handler
-import android.os.Message
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatImageButton
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
-import androidx.core.os.bundleOf
-import games.for_fun.crownnew.R
-import games.for_fun.crownnew.activities.CanSpin
-import games.for_fun.crownnew.activities.GameAction
-import games.for_fun.crownnew.constants.Gradients
-import games.for_fun.crownnew.constants.Intents
-import games.for_fun.crownnew.constants.makeIntent
+import com.golden.goldcrowncas.inonline.app.R
+import com.golden.goldcrowncas.inonline.app.activities.CanSpin
+import com.golden.goldcrowncas.inonline.app.activities.GameAction
+import com.golden.goldcrowncas.inonline.app.constants.Gradients
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import kotlin.concurrent.thread

@@ -1,4 +1,4 @@
-package games.for_fun.crownnew.constants
+package com.golden.goldcrowncas.inonline.app.constants
 
 import android.graphics.LinearGradient
 import android.graphics.Shader

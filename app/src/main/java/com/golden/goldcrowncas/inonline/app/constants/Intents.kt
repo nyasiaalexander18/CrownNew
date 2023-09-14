@@ -1,10 +1,10 @@
-package games.for_fun.crownnew.constants
+package com.golden.goldcrowncas.inonline.app.constants
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import games.for_fun.crownnew.activities.offline_games.OfflineGamesActivity
-import games.for_fun.crownnew.activities.play_pokies.PlayPokiesActivity
-import games.for_fun.crownnew.activities.play_slots.PlaySlotsActivity
+import com.golden.goldcrowncas.inonline.app.activities.offline_games.OfflineGamesActivity
+import com.golden.goldcrowncas.inonline.app.activities.play_pokies.PlayPokiesActivity
+import com.golden.goldcrowncas.inonline.app.activities.play_slots.PlaySlotsActivity
 
 infix fun AppCompatActivity.makeIntent(id: Int) = Intent(this, classById(id))
 

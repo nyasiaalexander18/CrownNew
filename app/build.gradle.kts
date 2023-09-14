@@ -1,14 +1,15 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "games.for_fun.crownnew"
+    namespace = "com.golden.goldcrowncas.inonline.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "games.for_fun.crownnew"
+        applicationId = "com.golden.goldcrowncas.inonline.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -46,4 +47,7 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+    implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation("com.onesignal:OneSignal:[5.0.0, 5.99.99]")
 }

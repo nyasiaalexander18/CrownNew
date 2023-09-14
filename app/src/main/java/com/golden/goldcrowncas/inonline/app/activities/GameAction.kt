@@ -1,11 +1,10 @@
-package games.for_fun.crownnew.activities
+package com.golden.goldcrowncas.inonline.app.activities
 
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.os.bundleOf
 import androidx.lifecycle.MutableLiveData
-import games.for_fun.crownnew.constants.Intents
-import games.for_fun.crownnew.constants.makeIntent
+import com.golden.goldcrowncas.inonline.app.constants.Intents
+import com.golden.goldcrowncas.inonline.app.constants.makeIntent
 
 class GameAction {
     val currentBet = MutableLiveData(10)

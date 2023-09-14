@@ -1,14 +1,13 @@
-package games.for_fun.crownnew.activities.offline_games
+package com.golden.goldcrowncas.inonline.app.activities.offline_games
 
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
-import androidx.core.os.bundleOf
-import games.for_fun.crownnew.R
-import games.for_fun.crownnew.activities.GameAction
-import games.for_fun.crownnew.constants.Intents
-import games.for_fun.crownnew.constants.makeIntent
+import com.golden.goldcrowncas.inonline.app.R
+import com.golden.goldcrowncas.inonline.app.activities.GameAction
+import com.golden.goldcrowncas.inonline.app.constants.Intents
+import com.golden.goldcrowncas.inonline.app.constants.makeIntent
 
 class OfflineGamesActivity: AppCompatActivity() {
     private val gameAction = GameAction()

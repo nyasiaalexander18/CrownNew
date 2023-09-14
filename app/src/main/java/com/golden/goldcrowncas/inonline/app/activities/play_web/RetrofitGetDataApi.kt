@@ -1,4 +1,4 @@
-package games.for_fun.crownnew.activities.play_web
+package com.golden.goldcrowncas.inonline.app.activities.play_web
 
 import retrofit2.Response
 import retrofit2.http.GET
